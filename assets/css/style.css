@@ -1,3 +1,27 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+/* CSS Variables */
+:root {
+    --primary-font: "Playfair-Display";
+    --secondary-font: "Montserrat";
+    --primary-color: #FBF9F7;
+    --highlight-color: #8FA18C;
+    --highlight-color-dark: #b85042;
+}
+
+body {
+      font-family: var(--secondary-font);
+      background-color:var(--primary-color);
+}
+
+h1 {
+    font-family: var(--primary-font);
+    color: var(--highlight-color);
+}
+
+nav {
+    color: #FBF9F7;
+}
+
+
