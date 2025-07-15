@@ -16,9 +16,15 @@ body {
       background-color:var(--primary-color);
 }
 
-h1 {
+h1,
+h2
+ {
     font-family: var(--primary-font);
     color: var(--highlight-color);
+}
+
+h3 {
+   font-family: var(--primary-font); 
 }
 
 /* Navbar */
