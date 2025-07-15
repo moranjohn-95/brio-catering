@@ -6,10 +6,11 @@
     --primary-font: "Playfair-Display";
     --secondary-font: "Montserrat";
     --primary-color: #FBF9F7;
-    --highlight-color: #8FA18C;
-    --highlight-color-dark: #b85042;
+    --highlight-color: #8fa18c;
+    --highlight-color-dark: #3A3A3A;
 }
 
+/* Global Styles */
 body {
       font-family: var(--secondary-font);
       background-color:var(--primary-color);
@@ -20,8 +21,8 @@ h1 {
     color: var(--highlight-color);
 }
 
-nav {
-    color: #FBF9F7;
+/* Navbar */
+
+#navbar {
+   background-color: var(--highlight-color-dark); 
 }
-
-
