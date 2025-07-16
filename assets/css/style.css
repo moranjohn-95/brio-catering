@@ -27,9 +27,33 @@ h3 {
    font-family: var(--primary-font); 
 }
 
+.section {
+   padding-top: 1rem;
+}
+
 /* Navbar */
 
 #navbar {
    background-color: var(--highlight-color-dark); 
    font-family: var(--primary-font);
+}
+
+/* Carousel */
+.carousel-caption.text-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  transform: none;
+  text-align: left;
+  color: white;
+  padding: 10px;
+  font-size: 1.75rem;
+  font-family: var(--primary-font);
+  font-weight: bolder;
+}
+
+/* Hide arrows on Carousel */
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
 }
