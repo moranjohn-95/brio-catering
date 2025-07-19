@@ -83,3 +83,29 @@ h5
   margin-right: auto;
   margin-top: 10px;
 }
+
+/* Footer & Contact section */
+footer {
+   background-color:var(--highlight-color-dark);
+}
+
+footer h2 {
+   color: #ffffff;
+}
+
+footer h3 {
+   color: #8fa18c;
+}
+
+footer address {
+   color: #ffffff;
+}
+
+footer i {
+   color: #ffffff;
+}
+
+#opening-hours * {
+   background-color: var(--highlight-color-dark);
+   width: auto;
+}
