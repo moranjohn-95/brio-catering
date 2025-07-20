@@ -39,6 +39,9 @@ h5
    padding-top: 1rem;
 }
 
+label {
+   font-family: var(--primary-font);
+}
 /* Navbar */
 
 #navbar {
@@ -75,7 +78,7 @@ h5
    margin-bottom: 1.5rem;
 }
 
-/* create circular images in mrnu cards */
+/* create circular images in menu cards */
 #menu-images {
   width: 150px;
   height: 150px;
@@ -87,9 +90,11 @@ h5
   margin-top: 10px;
 }
 
+
 /* Footer & Contact section */
 footer {
    background-color:var(--highlight-color-dark);
+   margin-top: 15px;
 }
 
 footer h2 {
