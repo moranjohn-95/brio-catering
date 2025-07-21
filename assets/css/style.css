@@ -13,8 +13,15 @@
 /* Global Styles */
 body
  {
+      height: 100%;
+      font-display: flex;
+      flex-direction: column;
       font-family: var(--secondary-font);
       background-color:var(--primary-color);
+}
+
+main {
+   flex: 1;
 }
 
 h1,
