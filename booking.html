@@ -68,7 +68,7 @@
     <div class="row justify-content-center">
     <h2>Booking Form</h2>
     <p>Time to make that dream event a reality! simply fill in your details below and click submit, we look forward to hearing from you.</p>
-    <form id="enquiry-form" action="success.html" method="GET">
+    <form action="success.html" method="GET">
       <div class="row">
       <div class="col-12 col-md-6 mb-3">
     <label for="name" class="form-label fs-5">Name</label>
@@ -80,7 +80,7 @@
   </div>
   <div class="col-12 col-md-6 mb-3">
     <label for="phone" class="form-label fs-5">Phone Number</label>
-    <input type="number" class="form-control" id="number" required>
+    <input type="number" class="form-control" id="phone" required>
   </div>
   <div class="col-12 col-md-6 mb-3">
     <label for="event-date" class="form-label fs-5">Event Date</label>
@@ -92,19 +92,18 @@
   </div>
   <div class="col-12 col-md-6 mb-3">
     <label for="guest-count" class="form-label fs-5">No. of Guest's</label>
-    <select type="text" class="form-control" id="no-guest's" required>
+    <select class="form-select" id="guest-count" required>
     <option value="" selected>Select</option>
      <option value="25-50">25-50</option>
      <option value="50-100">50-100</option>
      <option value="100-150">100-150</option>
      <option value="150-200">150-200</option>
      <option value="200+">200+ please provide more details below</option>
-     </select>
     </select>
   </div>
   <div class="col-12 col-md-6 mb-3">
     <label for="services" class="form-label fs-5">Service</label>
-    <select type="text" class="form-control" id="service" required>
+    <select class="form-select" id="service" required>
      <option value="" selected>Select</option>
       <option value="banquet">Wedding</option>
      <option value="luxe">Corporate Event</option>
@@ -114,7 +113,7 @@
   </div>
   <div class="col-12 col-md-6 mb-3">
     <label for="full-name" class="form-label fs-5">Menu</label>
-    <select type="text" class="form-control" id="menu" required>
+    <select class="form-select" id="menu" required>
      <option value="" selected>Select</option>
      <option value="banquet">Royal Banquet</option>
      <option value="luxe">Gastronomy Luxe</option>
@@ -126,7 +125,7 @@
     <textarea class="form-control" rows="5" id="details" placeholder="Please provide more details of the event and any additional request's." required></textarea>
   </div>
   </div>
-  <a type="submit" class="btn btn-success text-uppercase" href="success.html">Submit</a>
+  <button type="submit" class="btn btn-success text-uppercase" href="success.html">Submit</button>
 </form>
     </section>
     </div>

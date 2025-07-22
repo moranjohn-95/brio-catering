@@ -146,31 +146,31 @@
     <p>If you have any questions or would like to learn more about our services, 
       please don't hesitate to reach out using the following form. Simply fill in your details below
       and we will get back to you as soon as possible.</p>
-    <form id="enquiry-form">
+    <form action="enquirysuccess.html" method="GET">
       <div class="row">
       <div class="col-12 col-md-6 mb-3">
     <label for="name" class="form-label fs-5">Name</label>
-    <input type="text" class="form-control" id="name" required>
+    <input type="text" class="form-control" id="name" name="name" required>
   </div>
   <div class="col-12 col-md-6 mb-3">
     <label for="exampleInputEmail1" class="form-label fs-5">Email address</label>
-    <input type="email" class="form-control" id="email" required>
+    <input type="email" class="form-control" id="email" name="email" required>
   </div>
   <div class="col-12 col-md-6 mb-3">
     <label for="services" class="form-label fs-5">Service</label>
-    <select type="text" class="form-control" id="service" required>
-     <option value="" disbaled selected></option>
+    <select type="text" class="form-control" id="service" name="service" required>
+     <option value="" disabled selected></option>
      <option value="not-related">N/A</option>
      <option value="corporate">Corporate Events</option>
      <option value="weddings">Weddings</option>
      <option value="social">Social Gatherings</option>
      </select>
-    <div id="emailHelp" class="form-text">Please select an option if query relates to a service.</div>
+    <div class="form-text">Please select an option if query relates to a service.</div>
   </div>
   <div class="col-12 col-md-6 mb-3">
     <label for="full-name" class="form-label fs-5">Menu</label>
-    <select type="text" class="form-control" id="menu" required>
-     <option value="" disbaled selected></option>
+    <select type="text" class="form-control" id="menu" name="menu" required>
+     <option value="" disabled selected></option>
      <option value="not-related">N/A</option>
      <option value="banquet">Royal Banquet</option>
      <option value="luxe">Gastronomy Luxe</option>
@@ -180,10 +180,10 @@
   </div>
   <div class="col-12 mb-3">
     <label for="message" class="form-label fs-5">Enquiry</label>
-    <textarea class="form-control" rows="3" id="enquiry" required></textarea>
+    <textarea class="form-control" rows="3" id="enquiry" name="enquiry" required></textarea>
   </div>
   </div>
-  <button type="submit" class="btn btn-success text-uppercase">Submit</button>
+  <button type="submit" class="btn btn-success text-uppercase" href="enquirysuccess.html">Submit</button>
 </form>
     </section>
     </div>
