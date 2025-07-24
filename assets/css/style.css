@@ -84,6 +84,17 @@ label {
   margin-top: 10px;
 }
 
+/* Cards for full menus on menu.html */
+.card-title {
+   text-decoration: underline;
+}
+
+#full-menu h3 {
+   font-family: var(--primary-font); 
+   color: var(--highlight-color);
+}
+
+
 /* Footer & Contact section */
 footer {
    background-color:var(--highlight-color-dark);

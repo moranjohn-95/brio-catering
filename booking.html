@@ -34,7 +34,7 @@
         </li><a class="nav-link text-uppercase" href="#">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-uppercase" href="menu.html">Menu</a>
+          <a class="nav-link text-uppercase" href="menu.html">Menus</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-uppercase" href="#">Gallery</a>
@@ -66,7 +66,7 @@
     <!--Main-->
     <section class="container section text-center">
     <div class="row justify-content-center">
-    <h2>Booking Form</h2>
+    <h2>Booking</h2>
     <p>Time to make that dream event a reality! simply fill in your details below and click submit, we look forward to hearing from you.</p>
     <form action="success.html" method="GET">
       <div class="row">
@@ -84,7 +84,7 @@
   </div>
   <div class="col-12 col-md-6 mb-3">
     <label for="event-date" class="form-label fs-5">Event Date</label>
-    <input type="date" class="form-control" id="event-date" required>
+    <input type="date" class="form-control" id="event-date" onfocus="this.min=(new Date).toJSON().slice(0,10)" required>
   </div>
   <div class="col-12 col-md-6 mb-3">
     <label for="location" class="form-label fs-5">Event Location</label>
