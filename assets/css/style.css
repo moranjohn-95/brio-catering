@@ -55,6 +55,7 @@ label {
 section {
    scroll-margin-top: 70px;
 }
+
 /* Navbar */
 
 #navbar {
@@ -63,6 +64,11 @@ section {
    z-index: 1000;
    background-color: var(--highlight-color-dark); 
    font-family: var(--primary-font);
+}
+
+#navbar .nav-item {
+   margin: 0 20px;
+   font-size: 17px;
 }
 
 /* Hide arrows on Carousel */
