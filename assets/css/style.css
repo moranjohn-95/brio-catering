@@ -50,6 +50,10 @@ h5
 label {
    font-family: var(--primary-font);
 }
+
+section {
+   scroll-margin-top: 70px;
+}
 /* Navbar */
 
 #navbar {
