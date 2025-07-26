@@ -52,12 +52,16 @@ label {
 }
 
 /* For internal linking - scrolls down above section */
+
+html {
+  scroll-behavior: smooth;
+}
+
 section {
    scroll-margin-top: 70px;
 }
 
-/* Navbar */
-
+/* Navbar - Keepsnavbar stuck to the top while scrolling*/
 #navbar {
    position: sticky;
    top: 0;
@@ -78,7 +82,6 @@ section {
 }
 
 /* Menu section */
-
 #menu .card {
    margin-bottom: 1.5rem;
    width: 20rem;
