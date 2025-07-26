@@ -81,6 +81,7 @@ section {
 
 #menu .card {
    margin-bottom: 1.5rem;
+   width: 20rem;
 }
 
 /* create circular images in menu cards */
