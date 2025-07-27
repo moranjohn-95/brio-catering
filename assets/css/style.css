@@ -88,7 +88,9 @@ section {
 }
 
 /* create circular images in menu cards */
-#menu-images {
+#menu-image-1,
+#menu-image-2,
+#menu-image-3 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -116,7 +118,6 @@ section {
 /* Buttons */
 .btn {
    font-family: var(--primary-font);
-   border-color: #3A3A3A;
 }
 
 /* Footer & Contact section */
@@ -125,12 +126,17 @@ footer {
    margin-top: 15px;
 }
 
-footer h2 {
+footer h2
+ {
    color: #ffffff;
 }
 
 footer h3 {
    color: #8fa18c;
+}
+
+footer p {
+   color: #ffffff;
 }
 
 footer address {
@@ -139,9 +145,11 @@ footer address {
 
 footer i {
    color: #ffffff;
+   margin-right: 0.25rem;
 }
 
 #opening-hours * {
    background-color: var(--highlight-color-dark);
-   width: auto;
+   max-width: auto;
 }
+
