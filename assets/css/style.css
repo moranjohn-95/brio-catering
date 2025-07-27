@@ -3,8 +3,8 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Playfair-Display";
-    --secondary-font: "Montserrat";
+    --primary-font: "Playfair-Display", serif;
+    --secondary-font: "Montserrat", sans-serif;
     --primary-color: #FBF9F7;
     --highlight-color: #8fa18c;
     --highlight-color-dark: #3A3A3A;
