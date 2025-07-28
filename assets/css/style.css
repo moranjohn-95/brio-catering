@@ -6,7 +6,7 @@
     --primary-font: "Playfair-Display", serif;
     --secondary-font: "Montserrat", sans-serif;
     --primary-color: #FBF9F7;
-    --highlight-color: #6c7b6a;
+    --highlight-color: #6C7B6A;
     --highlight-color-dark: #3A3A3A;
 }
 
@@ -121,11 +121,13 @@ section {
 .btn {
    font-family: var(--primary-font);
    background-color:	#B0A14F;
+   font-weight: bold;
+   color: #3A3A3A;
    border: none;
 }
 
 .btn:hover {
-   background-color: #9f8f3f;
+   background-color: #9F8F3F;
 }
 
 .btn:active {
@@ -135,7 +137,8 @@ section {
 /* For menu buttons on home page and forms*/
 .btn-dark {
    font-family: var(--primary-font);
-   background-color: #6c7b6a;
+   background-color: #6A796A;
+   color: #FFFFFF;
    border: none;
 }
 
@@ -155,23 +158,23 @@ footer {
 
 footer h2
  {
-   color: #ffffff;
+   color: #FFFFFF;
 }
 
 footer h3 {
-   color: #8fa18c;
+   color: #8FA18C;
 }
 
 footer p {
-   color: #ffffff;
+   color: #FFFFFF;
 }
 
 footer address {
-   color: #ffffff;
+   color: #FFFFFF;
 }
 
 footer i {
-   color: #ffffff;
+   color: #FFFFFF;
    margin-right: 0.25rem;
 }
 
