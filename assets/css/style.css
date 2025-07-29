@@ -14,7 +14,7 @@
 body
  {
       height: 100%;
-      font-display: flex;
+      display: flex;
       flex-direction: column;
       font-family: var(--secondary-font);
       background-color:var(--primary-color);
@@ -120,14 +120,14 @@ section {
 /* For call to action buttons of "book now" */
 .btn {
    font-family: var(--primary-font);
-   background-color:	#B0A14F;
+   background-color:#B0A14F;
    font-weight: bold;
    color: #3A3A3A;
    border: none;
 }
 
 .btn:hover {
-   background-color: #9F8F3F;
+   background-color:#9F8F3F;
 }
 
 .btn:active {
@@ -137,17 +137,18 @@ section {
 /* For menu buttons on home page and forms*/
 .btn-dark {
    font-family: var(--primary-font);
-   background-color: #6A796A;
+   background-color:#6A796A;
+   font-weight: normal;
    color: #FFFFFF;
    border: none;
 }
 
 .btn-dark:hover {
-   background-color: #6A796A;
+   background-color:#6A796A;
 }
 
 .btn-dark:active {
-  background-color: #6A796A;
+  background-color:#6A796A;
 }
 
 /* Footer & Contact section */
@@ -158,23 +159,23 @@ footer {
 
 footer h2
  {
-   color: #FFFFFF;
+   color:#FFFFFF;
 }
 
 footer h3 {
-   color: #8FA18C;
+   color:#8FA18C;
 }
 
 footer p {
-   color: #FFFFFF;
+   color:#FFFFFF;
 }
 
 footer address {
-   color: #FFFFFF;
+   color:#FFFFFF;
 }
 
 footer i {
-   color: #FFFFFF;
+   color:#FFFFFF;
    margin-right: 0.25rem;
 }
 
