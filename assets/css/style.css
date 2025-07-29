@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* CSS Variables */
+/* Idea taken from Boardwalk Games*/
 :root {
     --primary-font: "Playfair-Display", serif;
     --secondary-font: "Montserrat", sans-serif;
@@ -12,7 +13,7 @@
 
 /* Global Styles */
 body
- {
+     {
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -21,25 +22,22 @@ body
 }
 
 main {
-   flex: 1;
+     flex: 1;
 }
 
 h1,
-h2
- {
-    font-family: var(--primary-font);
-    color: var(--highlight-color);
+h2 {
+     font-family: var(--primary-font);
+     color: var(--highlight-color);
 }
 
 h3,
-h5
- {
-   font-family: var(--primary-font); 
-   color: var(--highlight-color);
+h5 {
+    font-family: var(--primary-font); 
+    color: var(--highlight-color);
  }
 
- p 
- {
+ p  {
    font-family: var(--secondary-font);
  }
 
@@ -54,14 +52,14 @@ label {
 /* For internal linking - scrolls down above section */
 
 html {
-  scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 section {
    scroll-margin-top: 70px;
 }
 
-/* Navbar - Keepsnavbar stuck to the top while scrolling*/
+/* Navbar - Keeps navbar stuck to the top while scrolling*/
 #navbar {
    position: sticky;
    top: 0;
